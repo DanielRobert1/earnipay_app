@@ -4,7 +4,7 @@ import 'dart:convert';
 
 class ApiService {
   final String baseUrl = 'https://api.unsplash.com';
-  final String apiKey = 'SU5F5lxV9cyi67w65rymi-GsyZV9xf6gSXpYYthraSE';
+  final String apiKey = 'UNSPLASH_ACCESS_KEY';
 
   Future<List<Photo>> fetchPhotos(int page, int perPage) async {
     final response = await http.get(
