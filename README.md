@@ -24,13 +24,13 @@ To get started with the app, follow the instructions below.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/flutter-unsplash-photo-viewer.git
+git clone https://github.com/DanielRobert1/earnipay_app.git
 ```
 
 2. Change into the project directory:
 
 ```bash
-cd flutter-unsplash-photo-viewer
+cd earnipay_app
 ```
 
 3. Fetch the dependencies:
@@ -45,11 +45,11 @@ To fetch photos from the Unsplash API, you need to add your Unsplash API key to 
 
 - Visit the [Unsplash Developers website](https://unsplash.com/developers) and create a new developer account if you don't have one.
 - Create a new application and obtain an API key.
-- Open the **lib/api_service.dart** file and replace **'YOUR_UNSPLASH_API_KEY'** with your actual API key.
+- Open the **lib/src/services/api_service.dart** file and replace **'UNSPLASH_ACCESS_KEY'** with your actual Access key.
 
 ```dart
 // Replace 'YOUR_UNSPLASH_ACCESS_KEY' with your actual API key
-const String unsplashApiKey = 'YOUR_UNSPLASH_ACCESS_KEY';
+const String apiKey = 'UNSPLASH_ACCESS_KEY';
 ```
 
 ### Running the App
